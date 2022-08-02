@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Just-Loft/static/css/main.eea835fb.css",
-    "main.js": "/Just-Loft/static/js/main.aec80aa8.js",
+    "main.js": "/Just-Loft/static/js/main.16b44f64.js",
     "static/js/787.5f4a825a.chunk.js": "/Just-Loft/static/js/787.5f4a825a.chunk.js",
     "static/media/CormorantGaramond-Regular.ttf": "/Just-Loft/static/media/CormorantGaramond-Regular.274cef1344d2d06fb1be.ttf",
     "static/media/CormorantGaramond-Medium.ttf": "/Just-Loft/static/media/CormorantGaramond-Medium.b1033d71ed82fd59c989.ttf",
@@ -37,11 +37,11 @@
     "static/media/close.svg": "/Just-Loft/static/media/close.80dfd5bd01b8fe0a895e7edee2a73153.svg",
     "static/media/plus.svg": "/Just-Loft/static/media/plus.d86bb2edc2f6eadb96b785d29c82b56e.svg",
     "main.eea835fb.css.map": "/Just-Loft/static/css/main.eea835fb.css.map",
-    "main.aec80aa8.js.map": "/Just-Loft/static/js/main.aec80aa8.js.map",
+    "main.16b44f64.js.map": "/Just-Loft/static/js/main.16b44f64.js.map",
     "787.5f4a825a.chunk.js.map": "/Just-Loft/static/js/787.5f4a825a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eea835fb.css",
-    "static/js/main.aec80aa8.js"
+    "static/js/main.16b44f64.js"
   ]
 }
