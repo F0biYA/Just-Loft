@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Just-Loft/static/css/main.0233ebc5.css",
-    "main.js": "/Just-Loft/static/js/main.44fc0633.js",
+    "main.css": "/Just-Loft/static/css/main.1e9d6a97.css",
+    "main.js": "/Just-Loft/static/js/main.ac5335b6.js",
     "static/js/787.5f4a825a.chunk.js": "/Just-Loft/static/js/787.5f4a825a.chunk.js",
     "static/media/CormorantGaramond-Regular.ttf": "/Just-Loft/static/media/CormorantGaramond-Regular.274cef1344d2d06fb1be.ttf",
     "static/media/CormorantGaramond-Medium.ttf": "/Just-Loft/static/media/CormorantGaramond-Medium.b1033d71ed82fd59c989.ttf",
@@ -34,15 +34,17 @@
     "static/media/обучение.png": "/Just-Loft/static/media/обучение.eef8d5de4cf2bd8c0ae2.png",
     "static/media/UnicaOne-Regular.woff2": "/Just-Loft/static/media/UnicaOne-Regular.a0840e3a131a3b308f7d.woff2",
     "index.html": "/Just-Loft/index.html",
+    "static/media/denied.svg": "/Just-Loft/static/media/denied.df8eddf661ff88f2d0efd3d570d14309.svg",
+    "static/media/success.svg": "/Just-Loft/static/media/success.1b6082f862eac35e2514460237d96ecc.svg",
     "static/media/nav-button.svg": "/Just-Loft/static/media/nav-button.08035af1e508cd8cfed5.svg",
     "static/media/close.svg": "/Just-Loft/static/media/close.80dfd5bd01b8fe0a895e7edee2a73153.svg",
     "static/media/plus.svg": "/Just-Loft/static/media/plus.d86bb2edc2f6eadb96b785d29c82b56e.svg",
-    "main.0233ebc5.css.map": "/Just-Loft/static/css/main.0233ebc5.css.map",
-    "main.44fc0633.js.map": "/Just-Loft/static/js/main.44fc0633.js.map",
+    "main.1e9d6a97.css.map": "/Just-Loft/static/css/main.1e9d6a97.css.map",
+    "main.ac5335b6.js.map": "/Just-Loft/static/js/main.ac5335b6.js.map",
     "787.5f4a825a.chunk.js.map": "/Just-Loft/static/js/787.5f4a825a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0233ebc5.css",
-    "static/js/main.44fc0633.js"
+    "static/css/main.1e9d6a97.css",
+    "static/js/main.ac5335b6.js"
   ]
 }
