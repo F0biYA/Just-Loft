@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Just-Loft/static/css/main.8c74086e.css",
-    "main.js": "/Just-Loft/static/js/main.16b44f64.js",
+    "main.css": "/Just-Loft/static/css/main.0233ebc5.css",
+    "main.js": "/Just-Loft/static/js/main.85e26faa.js",
     "static/js/787.5f4a825a.chunk.js": "/Just-Loft/static/js/787.5f4a825a.chunk.js",
     "static/media/CormorantGaramond-Regular.ttf": "/Just-Loft/static/media/CormorantGaramond-Regular.274cef1344d2d06fb1be.ttf",
     "static/media/CormorantGaramond-Medium.ttf": "/Just-Loft/static/media/CormorantGaramond-Medium.b1033d71ed82fd59c989.ttf",
@@ -12,7 +12,6 @@
     "static/media/Loft1-2.jfif": "/Just-Loft/static/media/Loft1-2.f4aca53ad39ade3f2e6d.jfif",
     "static/media/Loft2-2.jfif": "/Just-Loft/static/media/Loft2-2.b65feba4a7b3ad2c1c7c.jfif",
     "static/media/Loft-1-1.jfif": "/Just-Loft/static/media/Loft-1-1.32d1a33fe90bae28ae52.jfif",
-    "static/media/learning.png": "/Just-Loft/static/media/learning.4825e24dc9fa904e5d01.png",
     "static/media/Loft2-4.jfif": "/Just-Loft/static/media/Loft2-4.e46261221b15ce9b82a9.jfif",
     "static/media/Raleway-ThinItalic.ttf": "/Just-Loft/static/media/Raleway-ThinItalic.5af7853a591baaa237ba.ttf",
     "static/media/Loft2-1.jfif": "/Just-Loft/static/media/Loft2-1.34544c8a7870dea5405c.jfif",
@@ -22,26 +21,28 @@
     "static/media/Inter-Regular.woff?v=3.19": "/Just-Loft/static/media/Inter-Regular.8c206db99195777c6769.woff",
     "static/media/Loft1-3.jfif": "/Just-Loft/static/media/Loft1-3.ec083df0fb146b76727e.jfif",
     "static/media/promo.jfif": "/Just-Loft/static/media/promo.ec083df0fb146b76727e.jfif",
-    "static/media/karaoke.jpg": "/Just-Loft/static/media/karaoke.a373211547977a7ccf88.jpg",
     "static/media/tim-small.jpg": "/Just-Loft/static/media/tim-small.fb51c463448419382b6c.jpg",
     "static/media/Inter-Bold.woff2?v=3.19": "/Just-Loft/static/media/Inter-Bold.ec64ea577b0349e055ad.woff2",
     "static/media/Inter-Medium.woff2?v=3.19": "/Just-Loft/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
     "static/media/Inter-Black.woff2?v=3.19": "/Just-Loft/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
     "static/media/Inter-Regular.woff2?v=3.19": "/Just-Loft/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
-    "static/media/hooka.jpg": "/Just-Loft/static/media/hooka.d9b707185cbc80732fc7.jpg",
-    "static/media/game-zone2.png": "/Just-Loft/static/media/game-zone2.d96374308b014fef330f.png",
-    "static/media/catering.png": "/Just-Loft/static/media/catering.3d59ebb5561d0862cb40.png",
+    "static/media/караоке.png": "/Just-Loft/static/media/караоке.2b3b9110f6d4c7181b33.png",
+    "static/media/Шоурум.png": "/Just-Loft/static/media/Шоурум.09500929f5a985588921.png",
+    "static/media/game-zone.png": "/Just-Loft/static/media/game-zone.e81c809abc4d530df4c2.png",
+    "static/media/кейтеринг.png": "/Just-Loft/static/media/кейтеринг.f0bc79d41d906424d082.png",
+    "static/media/кальяны.png": "/Just-Loft/static/media/кальяны.57bc8d37df958583563f.png",
+    "static/media/обучение.png": "/Just-Loft/static/media/обучение.eef8d5de4cf2bd8c0ae2.png",
     "static/media/UnicaOne-Regular.woff2": "/Just-Loft/static/media/UnicaOne-Regular.a0840e3a131a3b308f7d.woff2",
     "index.html": "/Just-Loft/index.html",
     "static/media/nav-button.svg": "/Just-Loft/static/media/nav-button.08035af1e508cd8cfed5.svg",
     "static/media/close.svg": "/Just-Loft/static/media/close.80dfd5bd01b8fe0a895e7edee2a73153.svg",
     "static/media/plus.svg": "/Just-Loft/static/media/plus.d86bb2edc2f6eadb96b785d29c82b56e.svg",
-    "main.8c74086e.css.map": "/Just-Loft/static/css/main.8c74086e.css.map",
-    "main.16b44f64.js.map": "/Just-Loft/static/js/main.16b44f64.js.map",
+    "main.0233ebc5.css.map": "/Just-Loft/static/css/main.0233ebc5.css.map",
+    "main.85e26faa.js.map": "/Just-Loft/static/js/main.85e26faa.js.map",
     "787.5f4a825a.chunk.js.map": "/Just-Loft/static/js/787.5f4a825a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c74086e.css",
-    "static/js/main.16b44f64.js"
+    "static/css/main.0233ebc5.css",
+    "static/js/main.85e26faa.js"
   ]
 }
