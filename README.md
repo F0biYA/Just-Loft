@@ -1,6 +1,6 @@
 
 ###
- <h1 align="center">Just-Loft</h1>
+ <h1 align="center">JUST-LOFT</h1>
  <h3 align="center"> https://f0biya.github.io/Just-Loft/ </h3>
  
 - - -
