@@ -1,0 +1,117 @@
+.services {
+    width: 100%;
+    max-width: 1180px;
+    min-width: 292px;
+    margin: 10px auto 0 auto;
+    padding: 0 0 28px 0;
+    align-items: center;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white; ;
+}
+
+.services__title {
+    font-size: 55px;
+    margin: 0;
+    padding: 28px 0 20px 0;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.services__card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 230px;
+}
+
+.services__image {
+    width: 100px;
+    height: 100px;
+}
+
+.services__card__title {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    width: 284px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.services__card__subtitle {
+    font-size: 18px;
+    width: 284px;
+    color: white;
+    padding: 0 0 10px 0;
+    margin: 0;
+    text-align: center;
+}
+@media screen and (max-width: 900px){
+    .services {
+        width: calc(100% - 20px);
+    }
+    .services__image {
+        width: 55px;
+        height: 55px;
+    }
+    .services__card__title{
+        font-size: 24px;
+        width: 184px;
+    }
+    .services__container {
+        grid-template-columns: repeat(auto-fill, minmax(184px, 1fr));
+    }
+    .services__card__subtitle{
+        width: 184px;
+    }
+    .services__card {
+        max-width: 184px;
+        min-height: 181px;
+    }
+}
+@media screen and (max-width:700px){
+    .services__title {
+        font-size: 35px;
+        padding: 28px 0 30px 0;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    .services__image {
+        width: 45px;
+        height: 45px;
+    }
+    .services__card__title{
+        font-size: 24px;
+        width: 184px;
+    }
+    .services__container {
+        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    }
+    .services__card__subtitle{
+        width: 170px;
+        font-size: 16px;
+    }
+    .services__card {
+        max-width: 170px;
+    }
+    
+}

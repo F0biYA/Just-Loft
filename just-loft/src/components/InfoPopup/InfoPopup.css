@@ -1,0 +1,27 @@
+.popup__info-image {
+    width: 120px;
+    height: 120px;
+    margin: 60px auto 32px auto;
+    display:block;
+    z-index: 60001;
+}
+.infoPopup__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: white;
+    align-items: center;
+    padding: 0 0 15px 0;
+}
+.infoPopup__text {
+    text-align: center;
+    max-width: 420px;
+}
+.infoPopup__button {
+    height: 38px;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+}

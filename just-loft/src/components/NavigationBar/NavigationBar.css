@@ -1,0 +1,48 @@
+.navigationBar__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.navigationBar__link:nth-of-type(5) {
+  padding-right: 15px;
+}
+.navigationBar__container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  color: black;
+}
+.navigationBar__button-menu {
+  position: absolute;
+  right: 10px;
+  background-image: url(../../images/nav-button.svg);
+  background-size: contain;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  background-color: white;
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .navigationBar__button-menu {
+    display: block;
+  }
+  .navigationBar__container {
+    display: none;
+  }
+}
+@media screen and (max-width:580px) {
+  .navigationBar__button-menu {
+width: 34px;
+height: 34px;
+  }
+}

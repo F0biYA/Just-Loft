@@ -1,0 +1,49 @@
+.faqCard__element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 0 0;
+    min-height: 60px;
+}
+
+.faqCard__element__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.faqCard__element__title {
+    color: white;
+    font-size: 20px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    font-weight: 400;
+}
+
+.faqCard__element__button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+.faqCard__element__subTitle {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0 0 10px;
+    text-align: left;
+    color: white;
+    font-weight: 400;
+    background-color: black;
+}
+
+.hide {
+    display: none;
+}

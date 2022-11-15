@@ -1,0 +1,64 @@
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow: 
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px #9c09f1,
+    0 0 80px #9c09f1,
+    0 0 90px #9c09f1,
+    0 0 100px #9c09f1,
+    0 0 150px #9c09f1;
+  }
+  20%, 24%, 55% {
+    text-shadow: none;
+  }
+}
+
+@keyframes flicker_board {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    border : 
+    10px  solid #fff,
+    10px  solid #fff,
+    10px  solid #fff,
+    10px  solid #0fa,
+    10px  solid #0fa,
+    10px  solid #0fa,
+    10px  solid #0fa,
+    10px  solid #0fa;
+  }
+  20%, 24%, 55% {
+    border: none;
+  }
+}
+.neonBoard {
+  
+  animation: flicker_board 1.5s infinite alternate;
+}
+
+
+.neonText {
+  animation: flicker 1.5s infinite alternate;
+}
+
+
+.App {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#root {
+  background-image: url('../../images/tim-small.jpg');
+  background-repeat:repeat ;
+  position: relative;
+}
+
+.hover:hover {
+  cursor: pointer;
+  opacity: 0.4;
+  transition: 0.8s;
+}
+.pointer:hover {
+  cursor: pointer;
+}
+
