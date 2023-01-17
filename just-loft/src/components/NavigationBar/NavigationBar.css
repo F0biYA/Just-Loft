@@ -21,7 +21,7 @@
 }
 .navigationBar__button-menu {
   position: absolute;
-  right: 10px;
+  right: 18px;
   background-image: url(../../images/nav-button.svg);
   background-size: contain;
   width: 34px;
