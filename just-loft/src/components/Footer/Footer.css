@@ -20,7 +20,7 @@
   .footer__body__contacts {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center; 
     margin: 0;
     padding: 0;
     
