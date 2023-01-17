@@ -13,7 +13,7 @@ function NavigationBar(props) {
         {props.children}
       </nav>
       <button className="navigationBar__button-menu hover" onClick={handleNavMenuClick}></button>
-      <NavMenu isOpen={isNavMenuOpen} isClose={closeNavMenuClick} openCalendarPopup={props.openCalendarPopup}></NavMenu>
+      <NavMenu isOpen={isNavMenuOpen} openFormPopup={props.openFormPopup} isClose={closeNavMenuClick} openCalendarPopup={props.openCalendarPopup}></NavMenu>
     </>
   )
 }

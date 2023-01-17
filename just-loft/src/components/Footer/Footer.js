@@ -10,11 +10,10 @@ function Footer() {
       <div className='footer__body'>
         <div className='footer__body__contacts'>
           <h5 className="footer__title">Наши контакты:</h5>
-          <p className='footer__contact'>Tel: +7-000-000-00-00</p>
-          <p className='footer__contact'>Whatsapp: +7-000-000-00-00</p>
-          <p className='footer__contact'>Telegram: +7-000-000-00-00</p>
-          <p className='footer__contact'>Email: xxxx@xx.ru</p>
-          <p className='footer__contact'>Адресс: Москва, Гарднеровский переулок 3стр4</p>
+          <p className='footer__contact'><b>Tel:</b> +7-000-000-00-00</p>
+          <p className='footer__contact'><b>Whatsapp:</b> +7-000-000-00-00</p>
+          <p className='footer__contact'><b>Telegram:</b> +7-000-000-00-00</p>
+          <p className='footer__contact'><b>Адрес:</b> г. Москва, м. Бауманская, Гарднеровский переулок 3 ст.4</p>
         </div>
         <div className='footer__body__map'>
           <h5 className="footer__title">Схема проезда:</h5>
@@ -30,7 +29,7 @@ function Footer() {
       <div className="footer__container">
         <p className="footer__copyright">© 2022</p>
         <ul className="footer__links">
-          <li className="hover"><a target="_blank" href="https://github.com/F0BiYa" className="footer__link neonText" rel="noreferrer">by Al. PuTIlIn</a></li>
+          <li className=" footer__link">Информация представленная на данном сайте не является публичной офертой</li>
         </ul>
 
       </div>

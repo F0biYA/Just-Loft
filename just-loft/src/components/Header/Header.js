@@ -11,6 +11,7 @@ const link = '/';
             <Link reloadDocument to={location.pathname === '/' ? '#root' : '/'} className="header__logo"></Link>
             <div className="header__container">
                 <NavigationBar 
+                openFormPopup={props.openFormPopup}
                 openCalendarPopup={props.openCalendarPopup}
                 children ={props.children}/>
             </div>

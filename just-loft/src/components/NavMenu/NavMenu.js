@@ -2,8 +2,12 @@ import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import './NavMenu.css';
 
-function NavMenu({ isOpen, isClose, openCalendarPopup }) {
+function NavMenu({ isOpen, isClose, openCalendarPopup, openFormPopup }) {
   const location = useLocation();
+  const handleLinkClick=()=> {
+    isClose();
+    openFormPopup();
+  }
   return (
     <section className={isOpen ? `navMenu navMenu_open` : `navMenu`}>
       <nav className="navMenu__container">
@@ -11,7 +15,7 @@ function NavMenu({ isOpen, isClose, openCalendarPopup }) {
         <NavLink to='/' end
           className={({ isActive }) =>
             isActive ? 'link_state_active navMenu__container__link hover' : 'navMenu__container__link hover'}>Главная</NavLink>
-        <a onClick={isClose} href={location.pathname === "/" ? '#промо' : '5ELEMENT#заявка'} className='navMenu__container__link hover' >Оставить заявку</a>
+        <a onClick={handleLinkClick} href='#'className='navMenu__container__link hover' >Оставить заявку</a>
         <button onClick={openCalendarPopup}  className='navMenu__container__link hover' >Посмотреть календарь</button>
         <NavLink to='/5ELEMENT' className={({ isActive }) =>
           isActive ? 'link_state_active navMenu__container__link hover' : 'navMenu__container__link hover'}  >5ELEMENT-тарифы и характеристики</NavLink>

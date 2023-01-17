@@ -4,6 +4,7 @@ import slide1 from "../../images/Loft-1-1.jfif";
 import slide2 from "../../images/Loft1-2.jfif";
 import slide3 from "../../images/Loft1-3.jfif";
 import slide4 from "../../images/Loft1-4.jfif";
+import GalleryPopup from "../GalleryPopup/GalleryPopup";
 function Gallery() {
     const img = [
         slide1,
@@ -13,6 +14,7 @@ function Gallery() {
     ];
     // Индекс текущего слайда
     const [activeIndex, setActiveIndex] = useState(0);
+    const [viewPopup, setViewPopup] = useState(false);
 
     // Хук Effect
     useEffect(() => {
@@ -28,15 +30,20 @@ function Gallery() {
         }, 7000)
         // Выключаем интервал
         return () => clearInterval()
-    }, [])
-    
+    }, []);
+
+
+    const toggleImagePopup=()=> {
+        clearInterval();
+setViewPopup(!viewPopup);
+    }
     return (
         <section id="галлерея" className="gallery">
             <h3 className="gallery__title">5element</h3>
             <div className="gallery__container">
                 <div className="gallery__slider">
                     <img className="slider-img" alt=''
-
+                        onClick={toggleImagePopup}
                         src={img[activeIndex]} />
                 </div>
                 <p className="gallery__description">5 element - это яркое , атмосферное и уютное лофт пространство в центре Москвы, идеально подходящее для проведения любых видов мероприятий. Хочется устроить свою незабываемую  вечеринку , на которой никто не помешает Вашему отдыху , с индивидуальной тематикой и креативным подходом ? Мы ждём Вас !
@@ -44,7 +51,7 @@ function Gallery() {
                     Команда Just Loft с радостью рассмотрит и реализует Ваши пожелания, а также поможет организовать незабываемое мероприятие.
                 </p>
             </div>
-
+        {viewPopup && <GalleryPopup image={img[activeIndex]} clearInterval={clearInterval} setActiveIndex={setActiveIndex} activeIndex={activeIndex} img={img} onClose={toggleImagePopup}/>}
         </section>
     )
 }
