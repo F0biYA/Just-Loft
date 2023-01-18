@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 10px auto;
-    padding: 100px 0 0 0;
+    /* padding: 100px 0 0 0; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,14 +22,20 @@
 
 .promo__cover {
     width: 100%;
+    height: 100%;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.8);
     /* background-color: rgba(0, 0, 0 .7); */
     min-height: calc(340px);
-    position: absolute;
+    /* position: absolute; */
     height: calc(100% - 6px);
     z-index: 0;
     top:0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .promo__link {
@@ -39,10 +45,10 @@
 
 .promo__title {
     margin: 0;
-    padding: 0;
+    padding: 0 0 50px;
     font-size: 120px;
     font-weight: 400;
-    z-index: 4;
+    z-index: 1;
     color: rgb(255, 255, 255);
     font-family: 'UnicaOne';
 }
