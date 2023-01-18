@@ -17,7 +17,7 @@ function App() {
     setInfoPopup(false);
   }
   const openFormPopup = () => setFormPopup(true);
-  const openCalendarPopup = () => setCalendarPopup(true);
+  //const openCalendarPopup = () => setCalendarPopup(true);
 
   function handlePostMessage(name, telefon, note) {
     return api.postBotMessage(name, telefon, note)
@@ -35,9 +35,9 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={   
-         <Main openFormPopup={openFormPopup} status={status} openCalendarPopup={openCalendarPopup} calendarPopup={calendarPopup} infoPopup={infoPopup} closePopup={closePopup} isOpen={formPopup} postMessage={handlePostMessage}/> } />
+         <Main openFormPopup={openFormPopup} status={status}  infoPopup={infoPopup} closePopup={closePopup} isOpen={formPopup} postMessage={handlePostMessage}/> } />
         <Route path="/5ELEMENT" element={   
-         <Loft openFormPopup={openFormPopup} status={status} openCalendarPopup={openCalendarPopup} calendarPopup={calendarPopup} infoPopup={infoPopup} closePopup={closePopup} isOpen={formPopup} postMessage={handlePostMessage}/> } />
+         <Loft openFormPopup={openFormPopup} status={status}   infoPopup={infoPopup} closePopup={closePopup} isOpen={formPopup} postMessage={handlePostMessage}/> } />
     </Routes >
   );
 }

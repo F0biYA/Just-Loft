@@ -7,7 +7,7 @@
   background-color: rgb(0, 0, 0, .9);
   opacity: 0;
   visibility: hidden;
-  transition: visibility 1s, opacity 1s ease-in-out;
+  transition: visibility .5s, opacity 1s ease-in-out;
   margin: 0 auto;
 
 }
@@ -15,7 +15,7 @@
 .navMenu_open {
   opacity: 1;
   visibility: visible;
-  z-index: 100;
+  z-index: 2;
 }
 
 .navMenu__container {
